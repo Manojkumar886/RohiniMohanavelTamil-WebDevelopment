@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>execution options</title>
+    <style>
+        label{
+            color: red;
+            text-decoration:line-through;
+        }
+    </style>
+    <link href="./externalrohini.css" rel="stylesheet" />
+</head>
+<body>
+    <fieldset align="center">
+        <legend style="background-color: peachpuff;">General details</legend>
+        <form style="text-align: start;">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" />
+            <br>
+            <label>Email:</label>
+            <input type="email" placeholder="abac123@gmail.com" />
+            <br>
+            <label>Gender</label>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />Other
+            <br>
+            <label>Designation</label>
+            <select>
+                <option selected hidden>Select any one</option>
+                <option>Java Full Stack Developer</option>
+                <option>Python</option>
+                <option>Front-end Developer</option>
+                <option>Back End -Developer</option>
+                <option>Database(Oracle)</option>
+                <option>Testing</option>
+            </select>
+            <br>
+            <label>Comments:</label>
+            <br>
+            <textarea></textarea>
+            <br>
+            <label>Address</label>
+            <br>
+            <textarea></textarea>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>User Account Details</legend>
+        <form>
+            <label>Username:</label>
+            <input type="text"  />
+            <br>
+            <label>Password:</label>
+            <input type="password" />
+            <br>
+            <label> newsletter subcriptions</label>
+            <input type="checkbox" />PHP Articles
+            <input type="checkbox" />PHP newsletter
+            <input type="checkbox"/>PHP Developer
+            <br>
+            <label>Upload Resume:</label>
+            <input type="file" />
+            <br>
+            <label>Mobile no:</label>
+            <input type="tel" />
+            <br>
+            <label>Date/Time</label>
+            <input type="time" />
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        
+    </fieldset>
+    
+</body>
+</html>

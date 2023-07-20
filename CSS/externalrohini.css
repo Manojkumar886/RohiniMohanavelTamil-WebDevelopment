@@ -1,0 +1,13 @@
+fieldset{
+    background-color: thistle;
+}
+body{
+    background-color: teal;
+}
+input{
+    background-color: chartreuse;
+}
+select{
+    color: rgb(59, 6, 17);
+    background-color: yellow;
+}
