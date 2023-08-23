@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssPerformance</title>
+</head>
+<body>
+    <ol id="values" onclick="techcss()">
+        web technologies
+        <li>Html</li>
+        <li ondblclick="techcss1()">Css</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+    </ol>
+    <script>
+        function techcss()
+        {
+            let tech=document.getElementById('values')
+            tech.style.textTransform='uppercase'
+            tech.style.color='red';
+            tech.style.textShadow='8px 5px 6px black'
+        }
+        function techcss1()
+        {
+            let tech1=document.getElementsByTagName('li')[1];
+
+            tech1.style.backgroundColor='seagreen  '
+        }
+    </script>     
+</body>
+</html>
