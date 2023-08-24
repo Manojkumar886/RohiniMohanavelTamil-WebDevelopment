@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerhtml</title>
+</head>
+<body>
+    <p id="spring">SpringBoot</p>
+    <br>
+    <p>Date and Time</p>
+    <button onclick="document.getElementsByTagName('p')[1].innerHTML=Date()">Click me!(get Date and Time)</button>
+    <script>
+        let words="1.Spring Boot is a project that is built on the top of the Spring Framework.";
+        document.getElementById("spring").innerHTML=words;
+        // document.getElementsByTagName("p")[1].innerHTML=Date();
+    </script>
+
+    
+</body>
+</html>
