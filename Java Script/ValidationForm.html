@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+    <script src="./ValidationForm.js"></script>
+</head>
+<body>
+    <fieldset align="center">
+        <legend>General details</legend>
+        <form align="center" name="generalform" onsubmit=" return RegularExpression()">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" name="username" />
+            <span id="username1"></span>
+            <br>
+            <label>Email:</label>
+            <input type="email" placeholder="abac123@gmail.com" name="email"/>
+            <span id="email1"></span>
+            <br>
+            <label>Gender</label>
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female
+            <input type="radio" name="gender"/>Other
+            <span id="gender1"></span>
+            <br>
+            <label>Designation</label>
+            <select name="option">
+                <option selected hidden>Select any one</option>
+                <option>Java Full Stack Developer</option>
+                <option>Python</option>
+                <option>Front-end Developer</option>
+                <option>Back End -Developer</option>
+                <option>Database(Oracle)</option>
+                <option>Testing</option>
+            </select>
+            <span id="option1"></span>
+            <br>
+            <label>Comments:</label>
+            <br>
+            <textarea name="texting"></textarea>
+            <span id="texting1"></span>
+            <br>
+            <label>Address</label>
+            <br>
+            <textarea></textarea>
+            <br>
+            <button type="submit">submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
