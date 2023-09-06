@@ -8,6 +8,18 @@ let RegularExpression=()=>
 
     let reload=true;
 
+    if(b.length==0)
+    {
+        document.getElementById('email1').innerHTML="please enter your email id";
+        reload=false;   
+    }
+    else if(!((/^[a-zA-Z0-9.!#$%~*+/=?^_~]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/).test(b)))
+    {
+        document.getElementById('email1').innerHTML="please enter valid gmail id`" ;
+        reload=false;   
+    }
+
+
 
     if(a.length==0)
     {
